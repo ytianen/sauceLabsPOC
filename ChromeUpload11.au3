@@ -6,7 +6,7 @@ Sleep(3000)
 Run(@comspec & ' /c C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe')
 
 Sleep(2000)
-
+WinWait("Open")
 WinKill("Open")
 WinClose("Open")
 WinWait("Open")
