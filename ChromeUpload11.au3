@@ -7,19 +7,15 @@ Run(@comspec & ' /c C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Conne
 
 Sleep(2000);
 
-WinClose("Open");
 
-WinKill("Open");
 WinWait("Open");
-
-WinFlash("Open");
 
 WinActivate("Open");
 
 WinWaitActive("Open");
 
 
-ControlSetText("Open","","[CLASS:Edit; INSTANCE:1]","C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe");
+ControlSend("Open","","[CLASS:Edit; INSTANCE:1]","C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe");
 
 Sleep(2000);
 ControlClick("Open","&Open","[CLASS:Button; INSTANCE:1]");
