@@ -5,27 +5,27 @@ Sleep(3000)
 
 Run(@comspec & ' /c C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe')
 
-Sleep(2000);
+Sleep(2000)
 
-WinKill("Open");
-WinClose("Open");
-WinWait("Open");
+WinKill("Open")
+WinClose("Open")
+WinWait("Open")
 
-Run("notepad.exe");
-WinActivate("Open");
+Run("notepad.exe")
+WinActivate("Open")
 
-WinWaitActive("Open");
-
-
-
-ControlSend("Open","","[CLASS:Edit; INSTANCE:1]","C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe");
-
-Sleep(2000);
-ControlClick("Open","&Open","[CLASS:Button; INSTANCE:1]");
+WinWaitActive("Open")
 
 
-Winwait("Confirm - Aspera Connect");
 
-ControlClick("Confirm - Aspera Connect","_rememberChkWindow","[CLASS:Qt5QWindowIcon; INSTANCE:5]");
+ControlSend("Open","","[CLASS:Edit; INSTANCE:1]","C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe")
+
+Sleep(2000)
+ControlClick("Open","&Open","[CLASS:Button; INSTANCE:1]")
+
+
+Winwait("Confirm - Aspera Connect")
+
+ControlClick("Confirm - Aspera Connect","_rememberChkWindow","[CLASS:Qt5QWindowIcon; INSTANCE:5]")
 Sleep(500);
-ControlClick("Confirm - Aspera Connect","_allowBtnWindow","[CLASS:Qt5QWindowIcon; INSTANCE:4]");
+ControlClick("Confirm - Aspera Connect","_allowBtnWindow","[CLASS:Qt5QWindowIcon; INSTANCE:4]")
