@@ -7,12 +7,15 @@ Run(@comspec & ' /c C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Conne
 
 Sleep(2000);
 
-
+WinKill("Open");
+WinClose("Open");
 WinWait("Open");
 
+Run("notepad.exe");
 WinActivate("Open");
 
 WinWaitActive("Open");
+
 
 
 ControlSend("Open","","[CLASS:Edit; INSTANCE:1]","C:\Users\selenium\AppData\Local\Programs\Aspera\Aspera Connect\bin\asperaconnect.exe");
