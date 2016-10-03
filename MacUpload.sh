@@ -18,8 +18,8 @@ osascript <<EOD
 #			        keystroke myFile
 #			        delay 1
 #			        keystroke return
-			        delay 2
-			        keystroke return
+#			        delay 2
+#			        keystroke return
 			        delay 20
 			        click button "Allow"
 		        end tell
