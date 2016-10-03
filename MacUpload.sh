@@ -9,17 +9,18 @@ osascript <<EOD
     delay 80
         tell application "Aspera Connect"
 	        activate
-	        set myFile to (item 1 of argv)
+#	        set myFile to (item 1 of argv)
 	        tell window 1
 		        tell application "System Events"
-			        keystroke "g" using {command down, shift down}
+#			        keystroke "g" using {command down, shift down}
+#			        delay 2
+#			        keystroke myFile
+#			        delay 1
+#			        keystroke return
 			        delay 2
-			        keystroke myFile
-			        delay 1
 			        keystroke return
 			        delay 2
-			        keystroke return
-			        delay 2
+			        click button "Allow"
 		        end tell
 	        end tell
         end tell
