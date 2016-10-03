@@ -6,7 +6,7 @@ sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstall
 sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 osascript <<EOD
     on run argv
-    delay 60
+    delay 90
         tell application "Aspera Connect"
 	        activate
 #           set myFile to do shell script "echo $(<`pwd`/src/main/resources/filename.txt)"
