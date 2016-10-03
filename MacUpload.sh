@@ -5,7 +5,8 @@ sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstall
 
 sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 osascript <<EOD
-    on run argv
+#    on run argv
+    on run
     delay 80
         tell application "Aspera Connect"
 	        activate
@@ -19,7 +20,7 @@ osascript <<EOD
 #			        keystroke return
 			        delay 2
 			        keystroke return
-			        delay 2
+			        delay 20
 			        click button "Allow"
 		        end tell
 	        end tell
