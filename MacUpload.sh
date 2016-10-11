@@ -5,10 +5,11 @@ sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstall
 
 sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 osascript <<EOD
-    on run argv
+    on run
         tell application "Aspera Connect"
 	        activate
-	        set myFile to (item 1 of argv)
+#	        set myFile to (item 1 of argv)
+            set myFile to "/Users/selenium/Desktop"
 	        tell application "System Events"
 	            tell process "Aspera Connect"
 	                repeat until exists window 1
