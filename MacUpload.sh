@@ -11,7 +11,7 @@ MyValue=$1
     on run
         tell application "Aspera Connect"
 	        activate
-#	        set myFile to do shell script "echo '$MyValue'"
+	        set myFile to do shell script "echo '$MyValue'"
 #            set myFile to "/Users/selenium/Desktop"
 	        tell application "System Events"
 	            tell process "Aspera Connect"
