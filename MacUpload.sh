@@ -5,14 +5,14 @@ sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstall
 
 sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 
-MyValue=$1
-#osascript <<EOD
-/usr/bin/osascript<<EOF
+#MyValue=$1
+osascript <<EOD
+#/usr/bin/osascript<<EOF
     on run
         tell application "Aspera Connect"
 	        activate
-	        set myFile to do shell script "echo '$MyValue'"
-#            set myFile to "/Users/selenium/Desktop"
+#	        set myFile to do shell script "echo '$MyValue'"
+            set myFile to "/Users/selenium/Desktop"
 	        tell application "System Events"
 	            tell process "Aspera Connect"
 	                repeat until exists window 1
@@ -33,5 +33,5 @@ MyValue=$1
             end tell
         end tell
     end run
-EOF
-#EOD
+#EOF
+EOD
