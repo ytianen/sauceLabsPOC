@@ -28,7 +28,7 @@ osascript <<EOD
 			                    delay 2
 			                    keystroke return
 			                    click button "Allow"
-		                    end tell
+#		                    end tell
 	            end tell
             end tell
         end tell
