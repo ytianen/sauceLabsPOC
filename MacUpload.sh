@@ -12,34 +12,33 @@ MyValue=$1
         tell application "Aspera Connect"
 	        activate
 	        set myFile to do shell script "echo '$MyValue'"
-#            set myFile to "/Users/selenium/Desktop"
 	        tell application "System Events"
 	            tell process "Aspera Connect"
 	                repeat until exists window 1
 	                delay 1
 	                end repeat
-#	                    tell window 1
-#		                    tell application "System Events"
-			                    keystroke "g" using {command down, shift down}
-			                    delay 2
-			                    keystroke myFile
-			                    delay 1
-			                    keystroke return
-			                    delay 2
-			                    keystroke return
-			                    delay 10
-			                    repeat until exists of button 1 of window 1
-			                    delay 1
-			                    end repeat
-			                    delay 2
-			                    tell application "Aspera Connect"
-			                    activate
-			                    end tell
-			                    delay 2
-#			                    keystroke return
-			                    click button "Allow"
-#		                    end tell
-	            end tell
+			        keystroke "g" using {command down, shift down}
+			        delay 2
+			        keystroke myFile
+			        delay 1
+			        keystroke return
+			        delay 2
+			        keystroke return
+			     end tell
+            end tell
+        end tell
+        delay 10
+        tell application "Aspera Connect"
+	        activate
+	        tell application "System Events"
+	            tell process "Aspera Connect"
+			        repeat until exists of button 1 of window 1
+			        delay 1
+			        end repeat
+			        delay 2
+			        keystroke return
+#			        click button "Allow"
+                end tell
             end tell
         end tell
     end run
