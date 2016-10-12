@@ -31,6 +31,7 @@ MyValue=$1
 			                    repeat until exists of button 1 of window 1
 			                    delay 1
 			                    end repeat
+			                    delay 2
 			                    tell application "Aspera Connect"
 			                    activate
 			                    end tell
