@@ -27,6 +27,13 @@ MyValue=$1
 			                    keystroke return
 			                    delay 2
 			                    keystroke return
+			                    delay 10
+			                    repeat until exists of button 1 of window 1
+			                    delay 1
+			                    end repeat
+			                    tell application "Aspera Connect"
+			                    activate
+			                    end tell
 			                    click button "Allow"
 #		                    end tell
 	            end tell
