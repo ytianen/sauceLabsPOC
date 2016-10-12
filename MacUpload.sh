@@ -34,7 +34,9 @@ MyValue=$1
 			                    tell application "Aspera Connect"
 			                    activate
 			                    end tell
-			                    click button "Allow"
+			                    delay 2
+			                    keystroke return
+#			                    click button "Allow"
 #		                    end tell
 	            end tell
             end tell
