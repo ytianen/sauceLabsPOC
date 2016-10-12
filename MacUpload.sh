@@ -36,8 +36,8 @@ MyValue=$1
 			                    activate
 			                    end tell
 			                    delay 2
-			                    keystroke return
-#			                    click button "Allow"
+#			                    keystroke return
+			                    click button "Allow"
 #		                    end tell
 	            end tell
             end tell
