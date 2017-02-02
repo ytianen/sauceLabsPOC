@@ -5,9 +5,9 @@ hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaC
 
 #sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 
-curl -o /tmp/mov_DO_NOT_DELETE_.mov https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/mov_DO_NOT_DELETE_.mov
+#curl -o /tmp/mov_DO_NOT_DELETE_.mov https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/mov_DO_NOT_DELETE_.mov
 
-#curl -o /tmp/{$1} https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/{$1}
+curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
 
 #MyValue1=$1
 #MyValue2=$2
