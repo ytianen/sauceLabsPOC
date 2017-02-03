@@ -12,7 +12,7 @@ hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaC
 #MyValue1=$1
 #MyValue2=$2
 #
-if ["$#" = "4"]
+if [ "$#" = "4" ]
 then
     curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
 #    /usr/bin/osascript<<EOF
@@ -51,7 +51,7 @@ then
 #    end run
 #EOF
 fi
-if ["$#" = "5"]
+if [ "$#" = "5" ]
 then
     curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1 -o /tmp/$2 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$2
 #    /usr/bin/osascript<<EOF
