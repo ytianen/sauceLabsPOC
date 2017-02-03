@@ -5,13 +5,6 @@ hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaC
 
 #sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 
-#curl -o /tmp/mov_DO_NOT_DELETE_.mov https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/mov_DO_NOT_DELETE_.mov
-
-#curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
-
-#MyValue1=$1
-#MyValue2=$2
-#
 if [ "$#" = "4" ]
 then
     curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
@@ -19,7 +12,7 @@ then
 #    on run
 #        tell application "Aspera Connect"
 #	        activate
-#	        set myFile to do shell script "echo '$MyValue1'"
+#	        set myFile to do shell script "echo '/tmp/$1'"
 #	        tell application "System Events"
 #	            tell process "Aspera Connect"
 #	                repeat until exists window 1
@@ -58,7 +51,7 @@ then
 #    on run
 #        tell application "Aspera Connect"
 #	        activate
-#	        set myFile to do shell script "echo '$MyValue1'"
+#	        set myFile to do shell script "echo '/tmp/$1'"
 #	        tell application "System Events"
 #	            tell process "Aspera Connect"
 #	                repeat until exists window 1
@@ -77,7 +70,7 @@ then
 #        delay 2
 #        tell application "Aspera Connect"
 #	    activate
-#	    set myFile to do shell script "echo '$MyValue2'"
+#	    set myFile to do shell script "echo '/tmp/$2'"
 #	        tell application "System Events"
 #	            tell process "Aspera Connect"
 #	                repeat until exists window 1
