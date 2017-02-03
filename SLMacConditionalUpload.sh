@@ -7,14 +7,14 @@ hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaC
 
 #curl -o /tmp/mov_DO_NOT_DELETE_.mov https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/mov_DO_NOT_DELETE_.mov
 
-curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
+#curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
 
 #MyValue1=$1
 #MyValue2=$2
 #
-#if ["$#" = "4"]
-#then
-#    curl -o /tmp/${MyValue1} https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/${MyValue1}
+if ["$#" = "4"]
+then
+    curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
@@ -50,10 +50,10 @@ curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/
 #        end tell
 #    end run
 #EOF
-#fi
-#if ["$#" = "5"]
-#then
-#    curl -o /tmp/${MyValue1} https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/${MyValue1} -o /tmp/${MyValue2} https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/${MyValue2}
+fi
+if ["$#" = "5"]
+then
+    curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1 -o /tmp/$2 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$2
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
@@ -111,6 +111,6 @@ curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/
 #        end tell
 #    end run
 #EOF
-#fi
+fi
 #
 #
