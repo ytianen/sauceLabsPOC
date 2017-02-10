@@ -8,8 +8,8 @@ open /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstaller.pkg
 osascript <<EOD
     on run
 #        tell application "Installer" to activate
-            tell application "System Events"
-                tell process "Installer"
+#            tell application "System Events"
+                tell application "Installer"
                 repeat until exists button "Continue" of window 1
                 end repeat
 	            click button "Continue" of window 1
@@ -30,7 +30,7 @@ osascript <<EOD
 #	            delay 2
 	            click button "Close" of window 1
                 end tell
-            end tell
+#            end tell
 #        end tell
     end run
 EOD
