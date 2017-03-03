@@ -1,5 +1,5 @@
 #!/bin/bash
-hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaConnectInstaller-3.6.6.119698.dmg
+#hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaConnectInstaller-3.6.6.119698.dmg
 
 #sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstaller.pkg -target /
 
@@ -7,7 +7,8 @@ hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaC
 
 if [ "$#" = "4" ]
 then
-    curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
+    #curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
+    curl -o /tmp/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/Connect.tar
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
@@ -105,5 +106,8 @@ then
 #    end run
 #EOF
 fi
-#
-#
+cd $HOME
+tar xvf Connect.tar
+$HOME/Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
+open $HOME/Applications/Aspera\ Connect.app
+
