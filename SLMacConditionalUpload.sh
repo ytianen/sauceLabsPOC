@@ -106,9 +106,9 @@ then
 #    end run
 #EOF
 fi
-sleep 5
+sleep 15
 cd $HOME
 tar xvf /tmp/Connect.tar
-$HOME/Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
+Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
 open $HOME/Applications/Aspera\ Connect.app
 
