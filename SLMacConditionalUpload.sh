@@ -8,7 +8,7 @@
 if [ "$#" = "4" ]
 then
     #curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
-    curl -o /tmp/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/Connect.tar
+    curl -o /tmp/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
