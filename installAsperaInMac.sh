@@ -7,6 +7,7 @@ open /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstaller.pkg
 
 osascript <<EOD
     on run
+    delay 5
 #        tell application "Installer" to activate
            tell application "System Events"
                 tell process "Installer"
