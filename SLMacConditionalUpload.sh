@@ -13,11 +13,11 @@
         do
         sleep 2
     done
-    cd $HOME
+#    cd $HOME
     tar xvf /tmp/Connect.tar
-    sleep 10
-    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
-    open $HOME/Applications/Aspera\ Connect.app
+#    sleep 10
+#    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
+#    open $HOME/Applications/Aspera\ Connect.app
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
