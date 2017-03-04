@@ -9,8 +9,8 @@
 #then
     #curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
 #    cd /tmp
-    cd $HOME
-    curl -o $HOME/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
+    cd /User/chef
+    curl -o /User/chef/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
 #    while [ ! -f /tmp/$1 ]
 #        do
 #        sleep 2
