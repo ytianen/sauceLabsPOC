@@ -14,7 +14,7 @@
         sleep 2
     done
 #    cd $HOME
-    tar xvf /tmp/Connect.tar
+    tar -xvf /tmp/Connect.tar
 #    sleep 10
 #    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
 #    open $HOME/Applications/Aspera\ Connect.app
