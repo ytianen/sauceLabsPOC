@@ -9,6 +9,15 @@
 #then
     #curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
     curl -o /tmp/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
+    while [ ! -f /tmp/$1 ]
+        do
+        sleep 2
+    done
+    cd $HOME
+    tar xvf /tmp/Connect.tar
+    sleep 10
+    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
+    open $HOME/Applications/Aspera\ Connect.app
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
@@ -106,9 +115,6 @@
 #    end run
 #EOF
 #fi
-sleep 35
-cd $HOME
-tar xvf /tmp/Connect.tar
-Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
-open $HOME/Applications/Aspera\ Connect.app
+
+
 
