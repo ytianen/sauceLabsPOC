@@ -18,8 +18,7 @@
 #    cd $HOME
     cd /Users/chef
     tar -xvf /tmp/Connect.tar
-#    sleep 10
-#    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
+    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
 #    open $HOME/Applications/Aspera\ Connect.app
 #    /usr/bin/osascript<<EOF
 #    on run
