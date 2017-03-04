@@ -5,8 +5,8 @@
 
 #sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 
-if [ "$#" = "4" ]
-then
+#if [ "$#" = "4" ]
+#then
     #curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
     curl -o /tmp/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
 #    /usr/bin/osascript<<EOF
@@ -44,10 +44,10 @@ then
 #        end tell
 #    end run
 #EOF
-fi
-if [ "$#" = "5" ]
-then
-    curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1 -o /tmp/$2 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$2
+#fi
+#if [ "$#" = "5" ]
+#then
+#    curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1 -o /tmp/$2 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$2
 #    /usr/bin/osascript<<EOF
 #    on run
 #        tell application "Aspera Connect"
@@ -105,7 +105,7 @@ then
 #        end tell
 #    end run
 #EOF
-fi
+#fi
 sleep 35
 cd $HOME
 tar xvf /tmp/Connect.tar
