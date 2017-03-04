@@ -8,14 +8,15 @@
 #if [ "$#" = "4" ]
 #then
     #curl -o /tmp/$1 https://raw.githubusercontent.com/jianfengs/sauceLabsPOC/master/$1
-    cd /tmp
-    curl -o /tmp/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
+#    cd /tmp
+    cd $HOME
+    curl -o $HOME/$1 https://bitbucket.org/ztsjf/saucelabs_poc/raw/8f3b9133c1570cae2194e3b656194bfc5bcda929/$1
 #    while [ ! -f /tmp/$1 ]
 #        do
 #        sleep 2
 #    done
 #    cd $HOME
-    tar -xvf /tmp/Connect.tar
+    tar -xvf Connect.tar
 #    sleep 10
 #    Applications/Aspera\ Connect.app/Contents/MacOS/asperaconnect --register-protocol-user
 #    open $HOME/Applications/Aspera\ Connect.app
