@@ -22,6 +22,7 @@
 #    open Applications/Aspera\ Connect.app
     /usr/bin/osascript<<EOF
     on run
+        delay 60
         tell application "Aspera Connect"
 	        activate
 	        set myFile to do shell script "echo '/tmp/$2'"
