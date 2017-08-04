@@ -1,9 +1,4 @@
 #!/bin/bash
-sudo hdiutil attach  http://download.asperasoft.com/download/sw/connect/3.6.6/AsperaConnectInstaller-3.6.6.119698.dmg
-
-sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstaller.pkg -target /
-
-sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 
 MyValue1=$1
 MyValue2=$2
@@ -24,25 +19,14 @@ MyValue2=$2
 			        delay 1
 			        keystroke return
 			        delay 2
-			        keystroke return
-			     end tell
-            end tell
-        end tell
-        delay 2
-        tell application "Aspera Connect"
-	    activate
-	    set myFile to do shell script "echo '$MyValue2'"
-	        tell application "System Events"
-	            tell process "Aspera Connect"
-	                repeat until exists window 1
-	                delay 1
-	                end repeat
-			        keystroke "g" using {command down, shift down}
-			        delay 2
-			        keystroke myFile
-			        delay 1
-			        keystroke return
-			        delay 2
+				key code 126
+				delay 1
+				key code 126
+				delay 1
+				key code 126
+				delay 1
+				key code 125 using shift down
+				delay 1
 			        keystroke return
 			     end tell
             end tell
