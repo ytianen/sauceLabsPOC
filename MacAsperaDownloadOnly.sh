@@ -8,14 +8,14 @@
 	        activate
 	        tell application "System Events"
 	            tell process "Aspera Connect"
-	                tell checkbox 1 to if value is 0 then click
+#	                tell checkbox 1 to if value is 0 then click
 			            repeat until exists of button 1 of window 1
 			            delay 1
 			            end repeat
 			            delay 2
 			            keystroke return
 #			            click button "Allow"
-                    end tell
+#                    end tell
                 end tell
             end tell
         end tell
