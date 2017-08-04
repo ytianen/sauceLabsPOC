@@ -22,7 +22,7 @@ tell application "Aspera Connect"
 	activate
 	tell application "System Events"
 		tell process "Aspera Connect"
-			repeat until exists button of button 1 of window 1
+			repeat until exists of button 1 of window 1
 				delay 1
 			end repeat
 			delay 1
