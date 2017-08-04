@@ -37,18 +37,14 @@ MyValue2=$2
             end tell
         end tell
         delay 10
-        tell application "Chrome"
-	    activate
-	end tell
-	 tell application "System Events"
+	tell application "Aspera Connect"
+	        activate
+	    set myFile to do shell script "echo '$MyValue2'"
+	     tell application "System Events"
 	            tell process "Aspera Connect"
 	                repeat until exists window 1
 			 delay 1
 	                end repeat
-	tell application "Aspera Connect"
-	        activate
-	    set myFile to do shell script "echo '$MyValue2'"
-	               delay 1
 			        keystroke "g" using {command down, shift down}
 			        delay 2
 			        keystroke myFile
