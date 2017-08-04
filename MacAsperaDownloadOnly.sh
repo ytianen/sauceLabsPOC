@@ -28,7 +28,7 @@ tell application "Aspera Connect"
 			delay 1
 			keystroke space
 			delay 1
-			keystoke enter
+			keystoke return
 		end tell
 	end tell
 end tell
