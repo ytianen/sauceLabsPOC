@@ -3,7 +3,7 @@
 # sudo installer -package /Volumes/Aspera\ Connect\ Installer/AsperaConnectInstaller.pkg -target /
 # sudo hdiutil detach /Volumes/Aspera\ Connect\ Installer/
 
-tell application "Aspera Connect"
+(* tell application "Aspera Connect"
     activate
         tell application "System Events" to tell process "Aspera Connect"
             repeat until exists of button 1 of window 1
@@ -14,4 +14,17 @@ tell application "Aspera Connect"
                 delay 2
             keystroke return
         end tell
+end tell *)
+
+tell application “Aspera Connect”
+    activate
+        tell application “System Events”
+            tell process “Aspera Connect”
+                repeat until exists of button 1 of window 1
+                delay 1
+                end repeat
+                delay 2
+                keystroke return
+             end tell
+         end tell
 end tell
