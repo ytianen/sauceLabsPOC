@@ -37,7 +37,7 @@ MyValue2=$2
             end tell
         end tell
         delay 10
-	tell application "Aspera Connect"
+	tell application "Chrome"
 	        activate
 	    set myFile to do shell script "echo '$MyValue2'"
 	     tell application "System Events"
