@@ -45,6 +45,7 @@ MyValue2=$2
 	                repeat until exists window 1
 			 delay 1
 	                end repeat
+			set frontmost to true
 			        keystroke "g" using {command down, shift down}
 			        delay 2
 			        keystroke myFile
