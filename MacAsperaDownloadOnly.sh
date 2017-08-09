@@ -1,5 +1,4 @@
 #!/bin/bash
-osascript <<EOD
     tell application "Aspera Connect"
             activate
             tell application "System Events"
@@ -17,12 +16,5 @@ osascript <<EOD
                 log
             end tell
     end tell
-    tell application "Terminal"
-        activate
-        tell application "System Events" to keystroke "n" using {command down}
-        end tell
-        log
-    end tell
-EOD
 
 
