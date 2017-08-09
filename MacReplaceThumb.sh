@@ -31,7 +31,7 @@ MyValue2=$2
 			        repeat until exists of button 1 of window 1
 			        delay 1
 			        end repeat
-			        delay 2
+			      set frontmost to true
 			        keystroke return
                 end tell
             end tell
