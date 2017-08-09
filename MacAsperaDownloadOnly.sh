@@ -21,14 +21,15 @@ end tell*)
 tell application "Aspera Connect"
 	activate
 	tell application "System Events"
-		tell process "Aspera Connect"
-			repeat until exists of button 1 of window 1
+			repeat until exists button "Allow" of window 1
 				delay 1
 			end repeat
+		tell process "Aspera Connect"
+			delay 1
+			keystroke space
 			delay 1
 			keystroke return
 		end tell
 	end tell
 end tell
-
 
