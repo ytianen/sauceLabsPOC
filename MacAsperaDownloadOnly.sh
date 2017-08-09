@@ -25,9 +25,7 @@ tell application "Aspera Connect"
 			repeat until exists button "Allow" of window 1
 				delay 1
 			end repeat
-			delay 1
-			keystroke space
-			delay 1
+			delay 3
 			keystroke return
 		end tell
 	end tell
