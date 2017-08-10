@@ -5,10 +5,10 @@ osascript <<EOD
             tell application "System Events"
                 tell process "Aspera Connect"
                     repeat until exists of button 1 of window 1
-                    delay 1
+                    delay 5
                     end repeat
                     log
-                    delay 2
+                    delay 5
                     keystroke return
                     delay 2
                     log
