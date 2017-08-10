@@ -1,4 +1,5 @@
 #!/bin/bash
+osascript <<EOD
     tell application "Aspera Connect"
             activate
             tell application "System Events"
@@ -16,5 +17,5 @@
                 log
             end tell
     end tell
-
+EOD
 
