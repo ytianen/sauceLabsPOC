@@ -9,7 +9,7 @@ osascript <<EOD
                     end repeat
                     log
                     delay 2
-                    keystroke return
+                    key code 53
                 end tell
                 log
             end tell
