@@ -22,7 +22,7 @@ osascript <<EOD
                         delay 1
                         end repeat
                         log
-                        delay 5
+                        delay 2
                         keystroke return
                         delay 2
                         log
