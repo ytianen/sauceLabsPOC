@@ -13,7 +13,7 @@ ConsoleWrite("5");
 WinActivate("Select Folder");
 WinWaitActive("Select Folder");
 Sleep(2000)
-ControlClick("Select Folder","",1)
+ControlClick("Select Folder","",2)
 Sleep (3000)
 Winwait("Confirm - Aspera Connect")
 While (WinExists("Confirm - Aspera Connect"))
