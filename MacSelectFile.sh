@@ -9,13 +9,13 @@ MyValue=$1
     	end repeat
      	tell application "Safari"
 		activate
-	end tell
         tell application "System Events"
 		tell process "Safari"
 		repeat until exists of button 1 of window 1
 			delay 1
 		end repeat
     		click button "Trust"
+	end tell
 	end tell
 	end tell
         tell application "Aspera Connect"
