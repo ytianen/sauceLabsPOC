@@ -10,7 +10,8 @@ MyValue=$1
      	tell application "Safari"
 		activate
 	end tell
-        tell application "System Events" to tell process "Safari"
+        tell application "System Events"
+		tell process "Safari"
     		if exists (button "Trust" of window 1) then
         		click (button "Trust" of window 1)
    		 end if
