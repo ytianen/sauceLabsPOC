@@ -4,6 +4,11 @@ MyValue=$1
 #osascript <<EOD
 /usr/bin/osascript<<EOF
     on run
+        tell application "System Events" to tell process "Safari"
+    		if exists (button "Trust" of window 1) then
+        		click (button "Trust" of window 1)
+   		 end if
+	end tell
         tell application "Aspera Connect"
 	        activate
 	        set myFile to do shell script "echo '$MyValue'"
