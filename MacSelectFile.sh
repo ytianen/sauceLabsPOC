@@ -17,6 +17,7 @@ MyValue=$1
 		end repeat
     		click button "Trust"
 	end tell
+	end tell
         tell application "Aspera Connect"
 	        activate
 	        set myFile to do shell script "echo '$MyValue'"
