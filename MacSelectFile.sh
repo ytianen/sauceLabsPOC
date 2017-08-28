@@ -4,6 +4,12 @@ MyValue=$1
 #osascript <<EOD
 /usr/bin/osascript<<EOF
     on run
+    	repeat until application "GridLauncherV3" is running
+    		delay 5
+    	end repeat
+     	tell application "Safari"
+		activate
+	end tell
         tell application "System Events" to tell process "Safari"
     		if exists (button "Trust" of window 1) then
         		click (button "Trust" of window 1)
