@@ -4,9 +4,18 @@ MyValue=$1
 #osascript <<EOD
 /usr/bin/osascript<<EOF
     on run
-    	repeat until application "GridLauncher" is running
-    		delay 2
-    	end repeat
+    processCheck()
+on processCheck()
+	tell application "System Events" to get name of every process
+	if the result contains "GridLauncher" then
+		
+	else
+		processCheck()
+	end if
+end processCheck
+#     	repeat until application "GridLauncher" is running
+#     		delay 2
+#     	end repeat
      	tell application "Safari"
 		activate
         tell application "System Events"
