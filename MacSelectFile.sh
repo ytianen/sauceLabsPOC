@@ -14,7 +14,7 @@ MyValue=$1
 		repeat until exists of button "Trust" of sheet 1 of window 1
 			delay 1
 		end repeat
-    		click button "Trust" of sheet o of window 1
+    		click button "Trust" of sheet 1 of window 1
 	end tell
 	end tell
 	end tell
