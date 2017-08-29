@@ -4,7 +4,7 @@ MyValue=$1
 #osascript <<EOD
 /usr/bin/osascript<<EOF
     on run
-    	repeat until application "GridLauncherV3" is running
+    	repeat until application "GridLauncher" is running
     		delay 2
     	end repeat
      	tell application "Safari"
