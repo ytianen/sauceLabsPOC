@@ -11,10 +11,10 @@ MyValue=$1
 		activate
         tell application "System Events"
 		tell process "Safari"
-		repeat until exists of button "Trust" of sheet 1 of window 1
+		repeat until exists of button "Trust" of sheet 1
 			delay 1
 		end repeat
-    		click button "Trust" of sheet 1 of window 1
+    		click button "Trust" of sheet 1
 	end tell
 	end tell
 	end tell
