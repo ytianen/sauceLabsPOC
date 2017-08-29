@@ -4,17 +4,17 @@ MyValue=$1
 #osascript <<EOD
 /usr/bin/osascript<<EOF
     on run
-    	repeat until application "GridLauncherV3" is running
-    		delay 2
-    	end repeat
+#     	repeat until application "GridLauncherV3" is running
+#     		delay 2
+#     	end repeat
      	tell application "Safari"
 		activate
         tell application "System Events"
 		tell process "Safari"
-		repeat until exists of button "Trust" of sheet 1 of window 2
+		repeat until exists of button "Trust" of sheet 1 of window 1
 			delay 1
 		end repeat
-    		click button "Trust" of sheet 1 of window 2
+    		click button "Trust" of sheet 1 of window 1
 	end tell
 	end tell
 	end tell
