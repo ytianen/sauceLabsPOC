@@ -4,9 +4,9 @@ MyValue=$1
 #osascript <<EOD
 /usr/bin/osascript<<EOF
     on run
-#     	repeat until application "GridLauncherV3" is running
-#     		delay 2
-#     	end repeat
+    	repeat until application "GridLauncherV3" is running
+    		delay 2
+    	end repeat
      	tell application "Safari"
 		activate
         tell application "System Events"
