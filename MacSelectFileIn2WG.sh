@@ -10,7 +10,7 @@ MyValue=$1
 	        tell application "System Events"
 	            tell process "Aspera Connect"
 	                repeat until exists window 1
-	                delay 1
+	                delay 5
 	                end repeat
 			        keystroke "g" using {command down, shift down}
 			        delay 2
@@ -38,3 +38,4 @@ MyValue=$1
         end tell
     end run
 EOF
+#EOD
