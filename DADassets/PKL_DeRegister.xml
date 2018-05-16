@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackingList xmlns="http://www.smpte-ra.org/schemas/2067-2/2016/PKL">
+  <Id>urn:uuid:e823a419-2bb5-48cb-adc2-3b9710f76e71</Id>
+  <AnnotationText>IndependenceDayResurgence_031505_ORIG_V401888_INT_C_EST_IMP2160pML5SDR_23_PTX_239_ENG-51ST_RT015934</AnnotationText>
+  <IssueDate>2018-01-22T22:20:57-00:00</IssueDate>
+  <Issuer>FMS</Issuer>
+  <Creator>Colorfront Transkoder 2017</Creator>
+  <AssetList>
+    <Asset>
+      <Id>urn:uuid:fdaba9d8-9165-49ee-871a-1f385e305c38</Id>
+      <AnnotationText>Video_fdaba9d8-9165-49ee-871a-1f385e305c38.mxf</AnnotationText>
+      <Hash>RJ5CA4DF6Y8px3mBwjxTonkWlz4=</Hash>
+      <Size>33711869</Size>
+      <Type>Application/mxf</Type>
+      <OriginalFileName>Video_fdaba9d8-9165-49ee-871a-1f385e305c38.mxf</OriginalFileName>
+      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:220ba6da-f14e-410b-96c1-b80ca1e0f92e</Id>
+      <AnnotationText>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</AnnotationText>
+      <Hash>XulMH3s7FbTU8fFjG4Tc0YtuUtc=</Hash>
+      <Size>31973</Size>
+      <Type>text/xml</Type>
+      <OriginalFileName>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</OriginalFileName>
+      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:9e4adc97-e821-4d4f-9fc7-678c10b065cc</Id>
+      <AnnotationText>Audio_9e4adc97-e821-4d4f-9fc7-678c10b065cc.mxf</AnnotationText>
+      <Hash>RJ5CA4DF6Y8px3mBwjxTonkWlz4=</Hash>
+      <Size>33711869</Size>
+      <Type>Application/mxf</Type>
+      <OriginalFileName>Audio_9e4adc97-e821-4d4f-9fc7-678c10b065cc.mxf</OriginalFileName>
+      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:8185959f-3aef-458e-a947-50411fd58949</Id>
+      <AnnotationText>Sub_8185959f-3aef-458e-a947-50411fd58949.mxf</AnnotationText>
+      <Hash>RJ5CA4DF6Y8px3mBwjxTonkWlz4=</Hash>
+      <Size>33711869</Size>
+      <Type>Application/mxf</Type>
+      <OriginalFileName>Sub_8185959f-3aef-458e-a947-50411fd58949.mxf</OriginalFileName>
+      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    </Asset>
+  </AssetList>
+</PackingList>
