@@ -3,7 +3,7 @@ WinWaitClose("Open")
 WinWait("Open")
 
 Local $i = 1
-While $i < 4
+While $i < 5
     WinActivate("Open");
     WinWaitActive("Open");
     Sleep(2000);
