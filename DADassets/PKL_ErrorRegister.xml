@@ -7,25 +7,25 @@
   <Creator>Colorfront Transkoder 2017</Creator>
   <AssetList>
     <Asset>
-      <Id>urn:uuid:3238c0dc-53c9-4535-adda-745d57695418</Id>
-      <AnnotationText>Sub_3238c0dc-53c9-4535-adda-745d57695418.mxf</AnnotationText>
+      <Id>urn:uuid:1924249c-60f1-458f-927c-aabc3cbde4c9</Id>
+      <AnnotationText>Sub_1924249c-60f1-458f-927c-aabc3cbde4c9.mxf</AnnotationText>
       <Hash>0kOIA1TgSkT7p8o/S/6uvScRh3g=</Hash>
       <Size>38105</Size>
       <Type>application/mxf</Type>
-      <OriginalFileName>Sub_3238c0dc-53c9-4535-adda-745d57695418.mxf</OriginalFileName>
+      <OriginalFileName>Sub_1924249c-60f1-458f-927c-aabc3cbde4c9.mxf</OriginalFileName>
       <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
     </Asset>
     <Asset>
-      <Id>urn:uuid:522bfc12-5ba1-406f-8f70-bbe19fbf9517</Id>
-      <AnnotationText>Sub_522bfc12-5ba1-406f-8f70-bbe19fbf9517.mxf</AnnotationText>
+      <Id>urn:uuid:9ab4fbbd-41d2-4c40-bc03-1416e241f6ac</Id>
+      <AnnotationText>Sub_9ab4fbbd-41d2-4c40-bc03-1416e241f6ac.mxf</AnnotationText>
       <Hash>0kOIA1TgSkT7p8o/S/6uvScRh3g=</Hash>
       <Size>38105</Size>
       <Type>application/mxf</Type>
-      <OriginalFileName>Sub_522bfc12-5ba1-406f-8f70-bbe19fbf9517.mxf</OriginalFileName>
+      <OriginalFileName>Sub_9ab4fbbd-41d2-4c40-bc03-1416e241f6ac.mxf</OriginalFileName>
       <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
     </Asset>
     <Asset>
-      <Id>urn:uuid:04bee3dc-84fe-4c58-8940-c5b80ef6061f</Id>
+      <Id>urn:uuid:b70530a6-8c92-4539-8700-bab5c2c5e97b</Id>
       <AnnotationText>CPL_WarForThePlanetOfTheApes_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR10_23_ENG_240_ENG-51SUR_ENG-ST_RT021957_EnglishForced.xml</AnnotationText>
       <Hash>lH/cEsRlRuZxC+o6X05NIqr4fdU=</Hash>
       <Size>383954</Size>
@@ -34,12 +34,12 @@
       <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
     </Asset>
 <Asset>
-      <Id>urn:uuid:462d908e-91fa-4d6c-81f1-f3cb2714885c</Id>
-      <AnnotationText>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</AnnotationText>
+      <Id>urn:uuid:52be3012-4cd6-464b-b40e-d3716fb6766d</Id>
+      <AnnotationText>Video_52be3012-4cd6-464b-b40e-d3716fb6766d.mxf</AnnotationText>
       <Hash>W3cSqqTiZOVIWwVUmc0abW/qNV0=</Hash>
       <Size>7286460138</Size>
       <Type>application/mxf</Type>
-      <OriginalFileName>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</OriginalFileName>
+      <OriginalFileName>Video_52be3012-4cd6-464b-b40e-d3716fb6766d.mxf</OriginalFileName>
       <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
     </Asset>
   </AssetList>
