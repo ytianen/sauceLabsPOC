@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
+<Id>urn:uuid:b26da8c6-b154-4756-a067-8711de637737</Id>
+<Creator>Clipster 6.2.1.5 (build 118257)</Creator>
+<VolumeCount>1</VolumeCount>
+<IssueDate>2017-08-25T22:02:50-00:00</IssueDate>
+<Issuer/>
+<AssetList>
+<Asset>
+	<Id>urn:uuid:7a100334-d474-4d65-8163-90c5f7421361</Id>
+	<PackingList>true</PackingList>
+	<ChunkList>
+		<Chunk>
+			<Path>PKL_FilesNeedToBeRegistered.xml</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>1764</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:a0115c4b-f1b3-4961-97be-848e332f8567</Id>
+	<AnnotationText>FoxIMFReelv4_1ARG01_ORIG_V238493_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_ENG-51ST_RT000913_0709948</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>CPL_FoxIMFReelv4_1ARG01_ORIG_V238493_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_ENG-51ST_RT000913_0709948.xml</Path><VolumeIndex>1</VolumeIndex>
+			<Length>21337</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:5872a385-3c26-4270-94b9-6667b61ffcb6</Id>
+	<AnnotationText>Audio_5872a385-3c26-4270-94b9-6667b61ffcb6.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Audio_5872a385-3c26-4270-94b9-6667b61ffcb6.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>7563540942</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:bbeced16-9602-4e54-ae92-860f58ac70ea</Id>
+	<AnnotationText>Audio_bbeced16-9602-4e54-ae92-860f58ac70ea.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Audio_bbeced16-9602-4e54-ae92-860f58ac70ea1.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>7563540942</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:2a011403-8f9d-4e89-9b4a-8d52ae652cbc</Id>
+	<AnnotationText>Video_2a011403-8f9d-4e89-9b4a-8d52ae652cbc.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Video_2a011403-8f9d-4e89-9b4a-8d52ae652cbc.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:79a778a7-fc8d-40f8-b1e0-47095be68212</Id>
+	<AnnotationText>Video_79a778a7-fc8d-40f8-b1e0-47095be68212.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Video_79a778a7-fc8d-40f8-b1e0-47095be68212.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+</AssetList>
+</AssetMap>
