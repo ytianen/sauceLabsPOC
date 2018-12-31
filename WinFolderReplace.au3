@@ -7,5 +7,3 @@ ControlFocus("Browse For Folder","",14148);
 ControlSetText("Browse For Folder","",14148,$CmdLine[i]);
 Sleep(2000)
 ControlClick("Browse For Folder","",1)
-
-WEnd
