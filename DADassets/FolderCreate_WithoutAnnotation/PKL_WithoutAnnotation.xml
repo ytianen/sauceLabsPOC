@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackingList xmlns="http://www.smpte-ra.org/schemas/2067-2/2016/PKL">
+  <Id>urn:uuid:f31a77c4-1db8-4d40-af06-e60c523d5494</Id>
+  <AnnotationText>IndependenceDayResurgence_031505_ORIG_V401888_INT_C_EST_IMP2160pML5SDR_23_PTX_239_ENG-51ST_RT015934</AnnotationText>
+  <IssueDate>2018-01-22T22:20:57-00:00</IssueDate>
+  <Issuer>FMS</Issuer>
+  <Creator>Colorfront Transkoder 2017</Creator>
+  <AssetList>
+    <Asset>
+      <Id>urn:uuid:5cec47d5-6933-436f-a807-6afd8bccf9eb</Id>
+      <Hash>RJ5CA4DF6Y8px3mBwjxTonkWlz4=</Hash>
+      <Size>33711869</Size>
+      <Type>Application/mxf</Type>
+      <OriginalFileName>Video_5cec47d5-6933-436f-a807-6afd8bccf9eb.mxf</OriginalFileName>
+      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:11c4381a-09a4-49b9-bd36-aa5a5e78c563</Id>
+      <Hash>XulMH3s7FbTU8fFjG4Tc0YtuUtc=</Hash>
+      <Size>31973</Size>
+      <Type>text/xml</Type>
+      <OriginalFileName>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</OriginalFileName>
+      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    </Asset>
+  </AssetList>
+</PackingList>
