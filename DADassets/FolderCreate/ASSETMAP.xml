@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
+<Id>urn:uuid:ece4e90c-27e2-40f6-b20d-6ac026fe09dc</Id>
+<Creator>Clipster 6.2.1.5 (build 118257)</Creator>
+<VolumeCount>1</VolumeCount>
+<IssueDate>2017-08-25T22:02:50-00:00</IssueDate>
+<Issuer/>
+<AssetList>
+<Asset>
+	<Id>urn:uuid:e97035ce-aef1-4b2a-bfc4-a604adad4665</Id>
+	<PackingList>true</PackingList>
+	<ChunkList>
+		<Chunk>
+			<Path>PKL_FilesNeedToBeRegistered.xml</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>1764</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:6a7c752e-0bd8-46ce-a96e-18bf8565b9b3</Id>
+	<AnnotationText>50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>CPL_50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913.xml</Path><VolumeIndex>1</VolumeIndex>
+			<Length>21337</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:87610e7c-b55c-4340-9f40-372bf9ac5a8e</Id>
+	<AnnotationText>Audio_FMCTest-3e9a-4e85-aaa6-d0f2886d88c0.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Audio_FMCTest-3e9a-4e85-aaa6-d0f2886d88c0.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>7563540942</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:391cf2ae-c17d-4b9e-be9a-096c0a0d4534</Id>
+	<AnnotationText>Sub_FMCTest-e323-4219-a6bc-8fd72f98f155.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Sub_FMCTest-e323-4219-a6bc-8fd72f98f155.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:4a4dda97-658d-4923-812d-804af0cba956</Id>
+	<AnnotationText>Video_FMCTest-5712-4e1e-a7f7-8273fb9e2279.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Video_FMCTest-5712-4e1e-a7f7-8273fb9e2279.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+</AssetList>
+</AssetMap>
