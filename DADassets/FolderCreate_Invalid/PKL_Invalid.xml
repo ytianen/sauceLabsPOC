@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><PackingList xmlns="http://www.smpte-ra.org/schemas/2067-2/2016/PKL">
+<Id>urn:uuid:16a529ac-17bd-4c39-9d51-5eff51c7d1fc</Id>
+<IssueDate>2017-08-25T22:02:50-00:00</IssueDate>
+<Issuer>FMS</Issuer>
+<Creator>Clipster 6.2.1.5 (build 118257)</Creator>
+<AssetList>
+	<Asset>
+		<Id>urn:uuid:4a509ac9-5854-4a85-b71b-1bf43133667b</Id>
+		<AnnotationText>50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913</AnnotationText>
+		<Hash>kiUhjggAFu7EDBmomdb1LrpK2go=</Hash>
+		<Size>21337</Size>
+		<Type>text/xml</Type>
+		<OriginalFileName>CPL_50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913.xml</OriginalFileName>
+	</Asset>
+	<Asset>
+		<Id>urn:uuid:f48d34c0-a94d-4972-8cae-7dac85bb539a</Id>
+		<AnnotationText>Audio_f48d34c0-a94d-4972-8cae-7dac85bb539a.mxf</AnnotationText>
+		<Hash>X8jVD3vD76/1NSJUSbDmODmZPls=</Hash>
+		<Size>7563540942</Size>
+		<Type>application/mxf</Type>
+		<OriginalFileName>Audio_f48d34c0-a94d-4972-8cae-7dac85bb539a.mxf</OriginalFileName>
+	</Asset>
+	<Asset>
+		<Id>urn:uuid:63f53b4b-a7f3-497a-9005-7810e74a5fb0</Id>
+		<AnnotationText>Audio_63f53b4b-a7f3-497a-9005-7810e74a5fb0.mxf</AnnotationText>
+		<Hash>mU2ce/hAVvA7L+eUC4DwacKvAGk=</Hash>
+		<Size>2521191630</Size>
+		<Type>application/mxf</Type>
+		<OriginalFileName>Audio_63f53b4b-a7f3-497a-9005-7810e74a5fb0.mxf</OriginalFileName>
+	</Asset>
+	<Asset>
+		<Id>urn:uuid:0035aca6-cb36-458a-812f-01482aaa3aff</Id>
+		<AnnotationText>Video_0035aca6-cb36-458a-812f-01482aaa3aff.mxf</AnnotationText>
+		<Hash>lSNf9kBYBLe6Cl/q6nIL9XCjG8k=</Hash>
+		<Size>190772224510</Size>
+		<Type>application/mxf</Type>
+		<OriginalFileName>Video_0035aca6-cb36-458a-812f-01482aaa3aff.mxf</OriginalFileName>
+	</Asset>
+</AssetList>
+</PackingList>
