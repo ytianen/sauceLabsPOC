@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
+<Id>urn:uuid:ece4e90c-27e2-40f6-b20d-6ac026fe09dc</Id>
+<Creator>Clipster 6.2.1.5 (build 118257)</Creator>
+<VolumeCount>1</VolumeCount>
+<IssueDate>2017-08-25T22:02:50-00:00</IssueDate>
+<Issuer/>
+<AssetList>
+<Asset>
+	<Id>urn:uuid:8058c1a6-b27a-4ae6-a879-b75a36f564b0</Id>
+	<PackingList>true</PackingList>
+	<ChunkList>
+		<Chunk>
+			<Path>PKL_ErrorRegister.xml</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>1764</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:3d531254-10cf-4e27-95de-5b07c625312b</Id>
+	<AnnotationText>WarForThePlanetOfTheApes_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR10_23_ENG_240_ENG-51SUR_ENG-ST_RT021957_EnglishForced</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>CPL_WarForThePlanetOfTheApes_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR10_23_ENG_240_ENG-51SUR_ENG-ST_RT021957_EnglishForced.xml</Path><VolumeIndex>1</VolumeIndex>
+			<Length>21337</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:3121e69f-cebe-4d71-9aa5-fedbbdfd8a2a</Id>
+	<AnnotationText>Sub_1924249c-60f1-458f-927c-aabc3cbde4c9.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Sub_1924249c-60f1-458f-927c-aabc3cbde4c9.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:5fa0cf1c-c75e-4526-aaa8-c8f37ae9e424</Id>
+	<AnnotationText>Sub_9ab4fbbd-41d2-4c40-bc03-1416e241f6ac.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Sub_9ab4fbbd-41d2-4c40-bc03-1416e241f6ac.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:72bbd0b8-be64-4d23-a3da-dd546afcb8b6</Id>
+	<AnnotationText>Video_52be3012-4cd6-464b-b40e-d3716fb6766d.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Video_52be3012-4cd6-464b-b40e-d3716fb6766d.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+</AssetList>
+</AssetMap>
