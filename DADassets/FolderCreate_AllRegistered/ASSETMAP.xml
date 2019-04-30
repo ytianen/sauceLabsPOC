@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
+<Id>urn:uuid:ece4e90c-27e2-40f6-b20d-6ac026fe09dc</Id>
+<Creator>Clipster 6.2.1.5 (build 118257)</Creator>
+<VolumeCount>1</VolumeCount>
+<IssueDate>2017-08-25T22:02:50-00:00</IssueDate>
+<Issuer/>
+<AssetList>
+<Asset>
+	<Id>urn:uuid:c9041dfc-a192-4a42-a79f-4a630765f55d</Id>
+	<PackingList>true</PackingList>
+	<ChunkList>
+		<Chunk>
+			<Path>PKL_AllFilesRegistered.xml</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>1764</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:633b848c-b53b-4ad4-a4ab-2c50c87b966c</Id>
+	<AnnotationText>IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</Path><VolumeIndex>1</VolumeIndex>
+			<Length>21337</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:462d908e-91fa-4d6c-81f1-f3cb2714885c</Id>
+	<AnnotationText>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>190772224510</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+</AssetList>
+</AssetMap>
