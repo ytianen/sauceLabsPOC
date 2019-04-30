@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.smpte-ra.org/schemas/2067-3/2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>urn:uuid:3d531254-10cf-4e27-95de-5b07c625312b</Id>
+  <Annotation>CPL_WarForThePlanetOfTheApes_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR10_23_ENG_240_ENG-51SUR_ENG-ST_RT021957_EnglishForced</Annotation>
+  <IssueDate>2018-04-24T23:04:19-00:00</IssueDate>
+  <Issuer>FMS</Issuer>
+  <Creator>Colorfront Transkoder 2017 build34647</Creator>
+  <ContentOriginator>FMS</ContentOriginator>
+  <ContentTitle>FoxIMFReelv4_EAF203_ORIG_V398949_IMP2160pML5HDR10_239_OV_01</ContentTitle>
+  <ContentKind>feature</ContentKind>
+  <ContentVersionList>
+    <ContentVersion>
+      <Id>urn:uuid:73c5e268-e04f-45f0-ab58-b2586b882c4f</Id>
+      <LabelText>FoxIMFReelv4_032009_ORIG_V398949_IMP2160pML5HDR10_239_OV_01</LabelText>
+    </ContentVersion>
+  </ContentVersionList>
+  <EssenceDescriptorList xmlns:r0="http://www.smpte-ra.org/reg/395/2014/13/1/aaf" xmlns:r1="http://www.smpte-ra.org/reg/335/2012" xmlns:r2="http://www.smpte-ra.org/reg/2003/2012">
+    <EssenceDescriptor>
+      <Id>urn:uuid:9eadaabc-43be-420b-8d2f-96b0b9efebe2</Id>
+      <r0:CDCIDescriptor>
+        <r1:InstanceID>urn:uuid:95c5aae0-2c83-4e58-9f64-be87317d1533</r1:InstanceID>
+        <r1:SubDescriptors>
+          <r0:JPEG2000SubDescriptor>
+            <r1:InstanceID>urn:uuid:7c5ca549-bb0b-43c8-9fa1-d2cf4053e919</r1:InstanceID>
+            <r1:Rsiz>1333</r1:Rsiz>
+            <r1:Xsiz>3840</r1:Xsiz>
+            <r1:Ysiz>2160</r1:Ysiz>
+            <r1:XOsiz>0</r1:XOsiz>
+            <r1:YOsiz>0</r1:YOsiz>
+            <r1:XTsiz>3840</r1:XTsiz>
+            <r1:YTsiz>2160</r1:YTsiz>
+            <r1:XTOsiz>0</r1:XTOsiz>
+            <r1:YTOsiz>0</r1:YTOsiz>
+            <r1:Csiz>3</r1:Csiz>
+            <r1:PictureComponentSizing>
+              <r2:J2KComponentSizing>
+              <r2:Ssiz>9</r2:Ssiz>
+              <r2:XRSiz>1</r2:XRSiz>
+              <r2:YRSiz>1</r2:YRSiz></r2:J2KComponentSizing>
+              <r2:J2KComponentSizing>
+              <r2:Ssiz>9</r2:Ssiz>
+              <r2:XRSiz>2</r2:XRSiz>
+              <r2:YRSiz>1</r2:YRSiz></r2:J2KComponentSizing>
+              <r2:J2KComponentSizing>
+              <r2:Ssiz>9</r2:Ssiz>
+              <r2:XRSiz>2</r2:XRSiz>
+              <r2:YRSiz>1</r2:YRSiz></r2:J2KComponentSizing>
+            </r1:PictureComponentSizing>
+            <r1:CodingStyleDefault>0104000100060303000077888888888888</r1:CodingStyleDefault>
+            <r1:QuantizationDefault>427f167ee37ee37eb276e976e976bc6eff6eff6ee1674c674c676350035003504557d257d25760</r1:QuantizationDefault>
+            <r1:J2CLayout>
+              <r2:RGBAComponent>
+              <r2:Code>CompLuma</r2:Code>
+              <r2:ComponentSize>10</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompColorDifferenceU</r2:Code>
+              <r2:ComponentSize>10</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompColorDifferenceV</r2:Code>
+              <r2:ComponentSize>10</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompNull</r2:Code>
+              <r2:ComponentSize>0</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompNull</r2:Code>
+              <r2:ComponentSize>0</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompNull</r2:Code>
+              <r2:ComponentSize>0</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompNull</r2:Code>
+              <r2:ComponentSize>0</r2:ComponentSize></r2:RGBAComponent>
+              <r2:RGBAComponent>
+              <r2:Code>CompNull</r2:Code>
+              <r2:ComponentSize>0</r2:ComponentSize></r2:RGBAComponent></r1:J2CLayout>
+          </r0:JPEG2000SubDescriptor>
+        </r1:SubDescriptors>
+        <r1:LinkedTrackID>2</r1:LinkedTrackID>
+        <r1:SampleRate>24000/1001</r1:SampleRate>
+        <r1:EssenceLength>21187</r1:EssenceLength>
+        <r1:ContainerFormat>urn:smpte:ul:060e2b34.0401010d.0d010301.020c0600<!--MXF-GC JPEG-2000 Picture Mappings--></r1:ContainerFormat>
+        <r1:FrameLayout>FullFrame</r1:FrameLayout>
+        <r1:StoredWidth>3840</r1:StoredWidth>
+        <r1:StoredHeight>2160</r1:StoredHeight>
+        <r1:SampledWidth>3840</r1:SampledWidth>
+        <r1:SampledHeight>2160</r1:SampledHeight>
+        <r1:SampledXOffset>0</r1:SampledXOffset>
+        <r1:SampledYOffset>0</r1:SampledYOffset>
+        <r1:DisplayHeight>2160</r1:DisplayHeight>
+        <r1:DisplayWidth>3840</r1:DisplayWidth>
+        <r1:DisplayXOffset>0</r1:DisplayXOffset>
+        <r1:DisplayYOffset>0</r1:DisplayYOffset>
+        <r1:DisplayF2Offset>0</r1:DisplayF2Offset>
+        <r1:ImageAspectRatio>3840/2160</r1:ImageAspectRatio>
+        <r1:TransferCharacteristic>urn:smpte:ul:060e2b34.0401010d.04010101.010a0000<!--ST2084 TransferCharacteristic--></r1:TransferCharacteristic>
+        <r1:PictureCompression>urn:smpte:ul:060e2b34.0401010d.04010202.0301030e</r1:PictureCompression>
+        <r1:CodingEquations>urn:smpte:ul:060e2b34.0401010d.04010101.02060000<!--BT2020 CodingEquations--></r1:CodingEquations>
+        <r1:ColorPrimaries>urn:smpte:ul:060e2b34.0401010d.04010101.03040000<!--BT2020 ColorPrimaries--></r1:ColorPrimaries>
+        <r1:ActiveWidth>3840</r1:ActiveWidth>
+        <r1:ActiveHeight>2160</r1:ActiveHeight>
+        <r1:ActiveXOffset>0</r1:ActiveXOffset>
+        <r1:ActiveYOffset>0</r1:ActiveYOffset>
+        <r1:VideoLineMap>
+              <r2:Int32>42</r2:Int32>
+              <r2:Int32>0</r2:Int32></r1:VideoLineMap>
+        <r1:MasteringDisplayPrimaries>
+              <r2:ColorPrimary>
+              <r2:X>34000</r2:X>
+              <r2:Y>16000</r2:Y></r2:ColorPrimary>
+              <r2:ColorPrimary>
+              <r2:X>13250</r2:X>
+              <r2:Y>34500</r2:Y></r2:ColorPrimary>
+              <r2:ColorPrimary>
+              <r2:X>7500</r2:X>
+              <r2:Y>3000</r2:Y></r2:ColorPrimary></r1:MasteringDisplayPrimaries>
+        <r1:MasteringDisplayWhitePointChromaticity>
+              <r2:X>15635</r2:X>
+              <r2:Y>16450</r2:Y></r1:MasteringDisplayWhitePointChromaticity>
+        <r1:MasteringDisplayMaximumLuminance>10000000</r1:MasteringDisplayMaximumLuminance>
+        <r1:MasteringDisplayMinimumLuminance>50</r1:MasteringDisplayMinimumLuminance>
+        <r1:ComponentDepth>10</r1:ComponentDepth>
+        <r1:HorizontalSubsampling>2</r1:HorizontalSubsampling>
+        <r1:VerticalSubsampling>1</r1:VerticalSubsampling>
+        <r1:ColorSiting>CoSiting</r1:ColorSiting>
+        <r1:BlackRefLevel>64</r1:BlackRefLevel>
+        <r1:WhiteRefLevel>940</r1:WhiteRefLevel>
+        <r1:ColorRange>897</r1:ColorRange>
+      </r0:CDCIDescriptor>
+    </EssenceDescriptor>
+    <EssenceDescriptor>
+      <Id>urn:uuid:567249c7-8230-49e0-9673-14b9d4d4b41a</Id>
+      <r0:WAVEPCMDescriptor>
+        <r1:InstanceID>urn:uuid:e33d0250-f5cf-4e12-8cac-1e08dd58d3be</r1:InstanceID>
+        <r1:SubDescriptors>
+          <r0:SoundfieldGroupLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:f9ee8650-e164-4705-94d5-f57fa546667c</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020201.00000000<!--MCA Audio Soundfield Group 5.1--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:MCALinkID>
+            <r1:MCATagSymbol>sg51</r1:MCATagSymbol>
+            <r1:MCATagName>5.1</r1:MCATagName>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:MCATitle>FoxIMFReelv4_032009</r1:MCATitle>
+            <r1:MCATitleVersion>FoxIMFReelv4_032009_Version</r1:MCATitleVersion>
+            <r1:MCAAudioContentKind>FTR</r1:MCAAudioContentKind>
+            <r1:MCAAudioElementKind>Sound of the program</r1:MCAAudioElementKind>
+          </r0:SoundfieldGroupLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:1510fb0f-82db-4b67-9cca-ab56c450e85c</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020101.00000000<!--MCA Audio Channel Left--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:c4d5f889-07fe-4609-94ca-85b31197d950</r1:MCALinkID>
+            <r1:MCATagSymbol>chL</r1:MCATagSymbol>
+            <r1:MCATagName>Left</r1:MCATagName>
+            <r1:MCAChannelID>1</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:9c2104aa-f07c-41ed-8f9a-75cd7e1698a1</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020102.00000000<!--MCA Audio Channel Right--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:de31618f-d5dc-4814-848f-ed9403271f3a</r1:MCALinkID>
+            <r1:MCATagSymbol>chR</r1:MCATagSymbol>
+            <r1:MCATagName>Right</r1:MCATagName>
+            <r1:MCAChannelID>2</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:84990785-b111-4dba-b5dd-76cba76ec579</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020103.00000000<!--MCA Audio Channel Center--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:f5d601e8-683c-402b-8c03-d9c0bc60d80a</r1:MCALinkID>
+            <r1:MCATagSymbol>chC</r1:MCATagSymbol>
+            <r1:MCATagName>Center</r1:MCATagName>
+            <r1:MCAChannelID>3</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:1d95d18d-037b-468f-a348-027c74e2ce67</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020104.00000000<!--MCA Audio Channel LFE--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:f30a8d65-3ba3-49a6-b734-57be87148767</r1:MCALinkID>
+            <r1:MCATagSymbol>chLFE</r1:MCATagSymbol>
+            <r1:MCATagName>LFE</r1:MCATagName>
+            <r1:MCAChannelID>4</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:b0a22cf2-4571-472a-99c9-5255cc08bc28</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020105.00000000<!--MCA Audio Channel Left Surround--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:eeff8461-9481-46b7-99a5-cafd4ce812c5</r1:MCALinkID>
+            <r1:MCATagSymbol>chLs</r1:MCATagSymbol>
+            <r1:MCATagName>Left Surround</r1:MCATagName>
+            <r1:MCAChannelID>5</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:ec234a1c-8dba-4ec5-83c8-a0268be69bec</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020106.00000000<!--MCA Audio Channel Right Surround--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:95508240-625c-4944-b284-0e9fe0c532bf</r1:MCALinkID>
+            <r1:MCATagSymbol>chRs</r1:MCATagSymbol>
+            <r1:MCATagName>Right Surround</r1:MCATagName>
+            <r1:MCAChannelID>6</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:da2823db-ddc1-4126-98ec-480bd8b93f6c</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>        </r1:SubDescriptors>
+        <r1:LinkedTrackID>2</r1:LinkedTrackID>
+        <r1:SampleRate>48000/1</r1:SampleRate>
+        <r1:EssenceLength>42416374</r1:EssenceLength>
+        <r1:ContainerFormat>urn:smpte:ul:060e2b34.04010101.0d010301.02060200<!--MXF-GC AES-BWF Audio--></r1:ContainerFormat>
+        <r1:AudioSampleRate>48000/1</r1:AudioSampleRate>
+        <r1:Locked>True</r1:Locked>
+        <r1:ChannelCount>6</r1:ChannelCount>
+        <r1:QuantizationBits>24</r1:QuantizationBits>
+        <r1:SoundCompression>urn:smpte:ul:060e2b34.04010101.04020201.7f000000</r1:SoundCompression>
+        <r1:BlockAlign>18</r1:BlockAlign>
+        <r1:AverageBytesPerSecond>864000</r1:AverageBytesPerSecond>
+        <r1:ChannelAssignment>urn:smpte:ul:060e2b34.0401010d.04020210.04010000</r1:ChannelAssignment>
+      </r0:WAVEPCMDescriptor>
+    </EssenceDescriptor>
+    <EssenceDescriptor>
+      <Id>urn:uuid:4f7c61ae-ff38-45cb-83a1-1b4624787d61</Id>
+      <r0:WAVEPCMDescriptor>
+        <r1:InstanceID>urn:uuid:c403b453-44c2-447d-bcf4-c434dd78c288</r1:InstanceID>
+        <r1:SubDescriptors>
+          <r0:SoundfieldGroupLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:d3a59cda-120c-4219-b0b0-0ce26aa92c51</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020220.09000000<!--MCA Audio Soundfield Group Lt-Rt--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:5b81dd5e-a70d-4ae0-8500-6d1a1583ad87</r1:MCALinkID>
+            <r1:MCATagSymbol>sgLtRt</r1:MCATagSymbol>
+            <r1:MCATagName>LtRt</r1:MCATagName>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:MCATitle>FoxIMFReelv4_032009</r1:MCATitle>
+            <r1:MCATitleVersion>FoxIMFReelv4_032009_Version</r1:MCATitleVersion>
+            <r1:MCAAudioContentKind>FTR</r1:MCAAudioContentKind>
+            <r1:MCAAudioElementKind>Sound of the program</r1:MCAAudioElementKind>
+          </r0:SoundfieldGroupLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:7d7165e0-f6bc-4efe-82b8-1c4c7cf2f261</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020120.03000000<!--MCA Audio Channel Left Total--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:0f0ba14c-d3e8-4ab9-bd50-4682ded5e4f1</r1:MCALinkID>
+            <r1:MCATagSymbol>chLt</r1:MCATagSymbol>
+            <r1:MCATagName>Lt</r1:MCATagName>
+            <r1:MCAChannelID>1</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:5b81dd5e-a70d-4ae0-8500-6d1a1583ad87</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>          <r0:AudioChannelLabelSubDescriptor>
+            <r1:InstanceID>urn:uuid:5003630d-de74-4870-ba2b-87755a958224</r1:InstanceID>
+            <r1:MCALabelDictionaryID>urn:smpte:ul:060e2b34.0401010d.03020120.04000000<!--MCA Audio Channel Right Total--></r1:MCALabelDictionaryID>
+            <r1:MCALinkID>urn:uuid:f6cd69c2-dbf6-4104-a800-3fde9542b16e</r1:MCALinkID>
+            <r1:MCATagSymbol>chRt</r1:MCATagSymbol>
+            <r1:MCATagName>Rt</r1:MCATagName>
+            <r1:MCAChannelID>2</r1:MCAChannelID>
+            <r1:RFC5646SpokenLanguage>en</r1:RFC5646SpokenLanguage>
+            <r1:SoundfieldGroupLinkID>urn:uuid:5b81dd5e-a70d-4ae0-8500-6d1a1583ad87</r1:SoundfieldGroupLinkID>
+          </r0:AudioChannelLabelSubDescriptor>        </r1:SubDescriptors>
+        <r1:LinkedTrackID>2</r1:LinkedTrackID>
+        <r1:SampleRate>48000/1</r1:SampleRate>
+        <r1:EssenceLength>42416374</r1:EssenceLength>
+        <r1:ContainerFormat>urn:smpte:ul:060e2b34.04010101.0d010301.02060200<!--MXF-GC AES-BWF Audio--></r1:ContainerFormat>
+        <r1:AudioSampleRate>48000/1</r1:AudioSampleRate>
+        <r1:Locked>True</r1:Locked>
+        <r1:ChannelCount>2</r1:ChannelCount>
+        <r1:QuantizationBits>24</r1:QuantizationBits>
+        <r1:SoundCompression>urn:smpte:ul:060e2b34.04010101.04020201.7f000000</r1:SoundCompression>
+        <r1:BlockAlign>6</r1:BlockAlign>
+        <r1:AverageBytesPerSecond>288000</r1:AverageBytesPerSecond>
+        <r1:ChannelAssignment>urn:smpte:ul:060e2b34.0401010d.04020210.04010000</r1:ChannelAssignment>
+      </r0:WAVEPCMDescriptor>
+    </EssenceDescriptor>
+	<EssenceDescriptor>
+      <Id>urn:uuid:b572438a-f2a0-49a6-8e2f-9a6e1b9541e0</Id>
+      <r0:DCTimedTextDescriptor>
+        <r1:InstanceID>urn:uuid:9afbf21d-ae3f-4f0d-8686-539ac0f09cf4</r1:InstanceID>
+        <r1:LinkedTrackID>2</r1:LinkedTrackID>
+        <r1:SampleRate>24000/1001</r1:SampleRate>
+        <r1:EssenceLength>13311</r1:EssenceLength>
+        <r1:ContainerFormat>urn:smpte:ul:060e2b34.0401010a.0d010301.02130101<!--SMPTE ST429-5 D-Cinema Timed Text Stream--></r1:ContainerFormat>
+        <r1:ResourceID>urn:uuid:fb858b3a-43d1-4cde-b675-00e4dd2b6f83</r1:ResourceID>
+        <r1:UCSEncoding>UTF-8</r1:UCSEncoding>
+        <r1:NamespaceURI>http://www.w3.org/ns/ttml/profile/imsc1/text</r1:NamespaceURI>
+      </r0:DCTimedTextDescriptor>
+    </EssenceDescriptor>
+  </EssenceDescriptorList>
+  <CompositionTimecode>
+    <TimecodeDropFrame>0</TimecodeDropFrame>
+    <TimecodeRate>24</TimecodeRate>
+    <TimecodeStartAddress>00:00:00:00</TimecodeStartAddress>
+  </CompositionTimecode>
+  <EditRate>24000 1001</EditRate>
+  <LocaleList>
+    <Locale>
+      <LanguageList>
+        <Language>en</Language>
+      </LanguageList>
+      <RegionList>
+        <Region>us</Region>
+      </RegionList>
+      <ContentMaturityRatingList>
+        <ContentMaturityRating>
+          <Agency>http://www.mpaa.org/2003-ratings</Agency>
+          <Rating>nr</Rating>
+        </ContentMaturityRating>
+      </ContentMaturityRatingList>
+    </Locale>
+  </LocaleList>
+  <ExtensionProperties>
+    <ApplicationIdentification xmlns="http://www.smpte-ra.org/schemas/2067-2/2016">http://www.smpte-ra.org/schemas/2067-21/2016</ApplicationIdentification>
+  </ExtensionProperties>
+  <SegmentList>
+    <Segment>
+      <Id>urn:uuid:19186c2c-c4c7-409a-8140-ae85eab3b51f</Id>
+      <SequenceList>
+		<cc:SubtitlesSequence xmlns:cc="http://www.smpte-ra.org/schemas/2067-2/2016">
+          <Id>urn:uuid:fbb0d7a7-5463-4d89-99e2-176e36e44122</Id>
+          <TrackId>urn:uuid:2689e12a-35c4-4893-b8d0-0dae104286d3</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:06f26d2e-eddc-468e-8e2f-9a6e1b9541e0</Id>
+              <Annotation>Sub_1924249c-60f1-458f-927c-aabc3cbde4c9.mxf</Annotation>
+              <EditRate>24000 1001</EditRate>
+              <IntrinsicDuration>13311</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>13311</SourceDuration>
+              <SourceEncoding>urn:uuid:b572438a-f2a0-49a6-8e2f-9a6e1b9541e0</SourceEncoding>
+              <TrackFileId>urn:uuid:3121e69f-cebe-4d71-9aa5-fedbbdfd8a2a</TrackFileId>
+              <Hash>n/iVRyDUH/k4KgbmEQUKsEUEQUs=</Hash>
+            </Resource>
+          </ResourceList>
+        </cc:SubtitlesSequence>
+		<cc:SubtitlesSequence xmlns:cc="http://www.smpte-ra.org/schemas/2067-2/2016">
+          <Id>urn:uuid:fbb0d7a7-5463-4d89-99e2-176e36e44122</Id>
+          <TrackId>urn:uuid:2689e12a-35c4-4893-b8d0-0dae104286d3</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:06f26d2e-eddc-468e-8e2f-9a6e1b9541e0</Id>
+              <Annotation>Sub_9ab4fbbd-41d2-4c40-bc03-1416e241f6ac.mxf</Annotation>
+              <EditRate>24000 1001</EditRate>
+              <IntrinsicDuration>13311</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>13311</SourceDuration>
+              <SourceEncoding>urn:uuid:b572438a-f2a0-49a6-8e2f-9a6e1b9541e0</SourceEncoding>
+              <TrackFileId>urn:uuid:5fa0cf1c-c75e-4526-aaa8-c8f37ae9e424</TrackFileId>
+              <Hash>n/iVRyDUH/k4KgbmEQUKsEUEQUs=</Hash>
+            </Resource>
+          </ResourceList>
+        </cc:SubtitlesSequence>
+		<cc:MainImageSequence xmlns:cc="http://www.smpte-ra.org/schemas/2067-2/2016">
+          <Id>urn:uuid:46928a7b-55c2-49db-9f1d-c3e5379a6a11</Id>
+          <TrackId>urn:uuid:de41d484-0ccf-4385-847e-03928eb0fd45</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:8b933f5a-8012-46c6-8041-7bf73b7acaf7</Id>
+              <Annotation>Video_52be3012-4cd6-464b-b40e-d3716fb6766d.mxf</Annotation>
+              <EditRate>24000 1001</EditRate>
+              <IntrinsicDuration>21187</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>21187</SourceDuration>
+              <SourceEncoding>urn:uuid:9eadaabc-43be-420b-8d2f-96b0b9efebe2</SourceEncoding>
+              <TrackFileId>urn:uuid:72bbd0b8-be64-4d23-a3da-dd546afcb8b6</TrackFileId>
+              <Hash>RJ5CA4DF6Y8px3mBwjxTonkWlz4=</Hash>
+            </Resource>
+          </ResourceList>
+        </cc:MainImageSequence>		
+      </SequenceList>
+    </Segment>
+  </SegmentList>
+</CompositionPlaylist>
