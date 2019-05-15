@@ -17,8 +17,8 @@ Sleep(2000)
 ControlClick("Open","&Open","[CLASS:Button; INSTANCE:1]")
 
 
-Winwait("Confirm - Aspera Connect")
+Winwait("Confirm - IBM Aspera Connect")
 
-ControlClick("Confirm - Aspera Connect","_rememberChkWindow","[CLASS:Qt5QWindowIcon; INSTANCE:5]")
+ControlClick("Confirm - IBM Aspera Connect","_rememberChkWindow","[CLASS:Qt5QWindowIcon; INSTANCE:5]")
 Sleep(500);
-ControlClick("Confirm - Aspera Connect","_allowBtnWindow","[CLASS:Qt5QWindowIcon; INSTANCE:4]")
+ControlClick("Confirm - IBM Aspera Connect","_allowBtnWindow","[CLASS:Qt5QWindowIcon; INSTANCE:4]")
