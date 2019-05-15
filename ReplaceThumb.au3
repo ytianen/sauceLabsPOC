@@ -15,11 +15,11 @@ ControlFocus("Open","",1148);
 ControlSetText("Open","",1148,$CmdLine[1]);
 Sleep(2000)
 ControlClick("Open","",1)
-Winwait("Confirm - Aspera Connect")
-While (WinExists("Confirm - Aspera Connect"))
-	WinActivate("Confirm - Aspera Connect")
+Winwait("Confirm - IBM Aspera Connect")
+While (WinExists("Confirm - IBM Aspera Connect"))
+	WinActivate("Confirm - IBM Aspera Connect")
 	Sleep(500)
-	ControlClick("Confirm - Aspera Connect","_allowBtnWindow","[CLASS:Qt5QWindowIcon; INSTANCE:4]")
+	ControlClick("Confirm - IBM Aspera Connect","_allowBtnWindow","[CLASS:Qt5QWindowIcon; INSTANCE:4]")
 	Sleep(1000)
 WEnd
 
