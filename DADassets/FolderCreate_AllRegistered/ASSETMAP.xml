@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
-<Id>urn:uuid:ece4e90c-27e2-40f6-b20d-6ac026fe09dc</Id>
+<Id>urn:uuid:eae54d87-e12a-42fa-a1f1-f97487e8eab5</Id>
 <Creator>Clipster 6.2.1.5 (build 118257)</Creator>
 <VolumeCount>1</VolumeCount>
 <IssueDate>2017-08-25T22:02:50-00:00</IssueDate>
 <Issuer/>
 <AssetList>
 <Asset>
-	<Id>urn:uuid:c9041dfc-a192-4a42-a79f-4a630765f55d</Id>
+	<Id>urn:uuid:92842528-0b64-4f88-9de4-744f89cb9b27</Id>
 	<PackingList>true</PackingList>
 	<ChunkList>
 		<Chunk>
@@ -18,21 +18,43 @@
 	</ChunkList>
 </Asset>
 <Asset>
-	<Id>urn:uuid:633b848c-b53b-4ad4-a4ab-2c50c87b966c</Id>
-	<AnnotationText>IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957</AnnotationText>
+	<Id>urn:uuid:c04e67d8-0d17-40c0-865e-3a55fa9a0a11</Id>
+	<AnnotationText>50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913</AnnotationText>
 	<ChunkList>
 		<Chunk>
-			<Path>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</Path><VolumeIndex>1</VolumeIndex>
+			<Path>CPL_50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913.xml</Path><VolumeIndex>1</VolumeIndex>
 			<Length>21337</Length>
 		</Chunk>
 	</ChunkList>
 </Asset>
 <Asset>
-	<Id>urn:uuid:462d908e-91fa-4d6c-81f1-f3cb2714885c</Id>
-	<AnnotationText>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</AnnotationText>
+	<Id>urn:uuid:e4abf4b8-0ef4-434a-aebc-b7993d79a3a5</Id>
+	<AnnotationText>Audio_e4abf4b8-0ef4-434a-aebc-b7993d79a3a5.mxf</AnnotationText>
 	<ChunkList>
 		<Chunk>
-			<Path>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</Path>
+			<Path>Audio_e4abf4b8-0ef4-434a-aebc-b7993d79a3a5.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>7563540942</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:d7d7b499-3680-4be8-9171-95e2c616afc9</Id>
+	<AnnotationText>Sub_d7d7b499-3680-4be8-9171-95e2c616afc9.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Sub_d7d7b499-3680-4be8-9171-95e2c616afc9.mxf</Path>
+			<VolumeIndex>1</VolumeIndex>
+			<Length>2521191630</Length>
+		</Chunk>
+	</ChunkList>
+</Asset>
+<Asset>
+	<Id>urn:uuid:92842528-0b64-4f88-9de4-744f89cb9b27</Id>
+	<AnnotationText>Video_92842528-0b64-4f88-9de4-744f89cb9b27.mxf</AnnotationText>
+	<ChunkList>
+		<Chunk>
+			<Path>Video_92842528-0b64-4f88-9de4-744f89cb9b27.mxf</Path>
 			<VolumeIndex>1</VolumeIndex>
 			<Length>190772224510</Length>
 		</Chunk>
