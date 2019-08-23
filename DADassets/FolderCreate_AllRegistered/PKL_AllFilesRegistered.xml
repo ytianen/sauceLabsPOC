@@ -1,28 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PackingList xmlns="http://www.smpte-ra.org/schemas/2067-2/2016/PKL">
-  <Id>urn:uuid:c9041dfc-a192-4a42-a79f-4a630765f55d</Id>
-  <AnnotationText>IndependenceDayResurgence_031505_ORIG_V401888_INT_C_EST_IMP2160pML5SDR_23_PTX_239_ENG-51ST_RT015934</AnnotationText>
-  <IssueDate>2018-01-22T22:20:57-00:00</IssueDate>
-  <Issuer>FMS</Issuer>
-  <Creator>Colorfront Transkoder 2017</Creator>
-  <AssetList>
-    <Asset>
-      <Id>urn:uuid:462d908e-91fa-4d6c-81f1-f3cb2714885c</Id>
-      <AnnotationText>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</AnnotationText>
-      <Hash>W3cSqqTiZOVIWwVUmc0abW/qNV0=</Hash>
-      <Size>7286460138</Size>
-      <Type>application/mxf</Type>
-      <OriginalFileName>Video_462d908e-91fa-4d6c-81f1-f3cb2714885c.mxf</OriginalFileName>
-      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-    </Asset>
-    <Asset>
-      <Id>urn:uuid:633b848c-b53b-4ad4-a4ab-2c50c87b966c</Id>
-      <AnnotationText>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</AnnotationText>
-      <Hash>XulMH3s7FbTU8fFjG4Tc0YtuUtc=</Hash>
-      <Size>31973</Size>
-      <Type>text/xml</Type>
-      <OriginalFileName>CPL_IMFTest_031873_ORIG_V441363_INT_C_EST_IMP2160pML5HDR_23_PTX_240_ENG-51SUR_ENG-ST_RT021957.xml</OriginalFileName>
-      <HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-    </Asset>
-  </AssetList>
+<?xml version="1.0" encoding="UTF-8"?><PackingList xmlns="http://www.smpte-ra.org/schemas/2067-2/2016/PKL">
+<Id>urn:uuid:92842528-0b64-4f88-9de4-744f89cb9b27</Id>
+<AnnotationText>CPL_50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913</AnnotationText>
+<IssueDate>2017-10-16T22:03:24-00:00</IssueDate>
+<Issuer>FMS</Issuer>
+<Creator>EMF Testing Team</Creator>
+<AssetList>
+	<Asset>
+		<Id>urn:uuid:c04e67d8-0d17-40c0-865e-3a55fa9a0a11</Id>
+		<AnnotationText>CPL_50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913.xml</AnnotationText>
+		<Hash>LszxoAMpRMlNJeUDTI7kbHm/IOk=</Hash>
+		<Size>247973</Size>
+		<Type>Application/xml</Type>
+		<OriginalFileName>CPL_50Greatest_EBG198_ORIG_V62287_INT_C_EST_IMP2160pML5HDR10_23_ENG_239_FRP-51ST_RT000913.xml</OriginalFileName>
+		<HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+	</Asset>
+	<Asset>
+		<Id>urn:uuid:e4abf4b8-0ef4-434a-aebc-b7993d79a3a5</Id>
+		<AnnotationText>Audio_e4abf4b8-0ef4-434a-aebc-b7993d79a3a5.mxf</AnnotationText>
+		<Hash>jZTRxMjmhgtQRsYyK8n49bQwRbI=</Hash>
+		<Size>68706</Size>
+		<Type>Application/mxf</Type>
+		<OriginalFileName>Audio_e4abf4b8-0ef4-434a-aebc-b7993d79a3a5.mxf</OriginalFileName>
+		<HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+	</Asset>
+	<Asset>
+		<Id>urn:uuid:d7d7b499-3680-4be8-9171-95e2c616afc9</Id>
+		<AnnotationText>Sub_d7d7b499-3680-4be8-9171-95e2c616afc9.mxf</AnnotationText>
+		<Hash>vYRKL8fC4K/FiduAx75TtRe9rLY=</Hash>
+		<Size>33711869</Size>
+		<Type>Application/mxf</Type>
+		<OriginalFileName>Sub_d7d7b499-3680-4be8-9171-95e2c616afc9.mxf</OriginalFileName>
+		<HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+	</Asset>
+	<Asset>
+		<Id>urn:uuid:92842528-0b64-4f88-9de4-744f89cb9b27</Id>
+		<AnnotationText>Video_92842528-0b64-4f88-9de4-744f89cb9b27.mxf</AnnotationText>
+		<Hash>RJ5CA4DF6Y8px3mBwjxTonkWlz4=</Hash>
+		<Size>33711869</Size>
+		<Type>Application/mxf</Type>
+		<OriginalFileName>Video_92842528-0b64-4f88-9de4-744f89cb9b27.mxf</OriginalFileName>
+		<HashAlgorithm Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+	</Asset>
+</AssetList>
 </PackingList>
